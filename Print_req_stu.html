@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="print.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    input[type=submit]{
+    background-color: #EDECEA;
+    color: black;
+    border: none;
+    margin: 10px 10px;
+    padding: 18px 32px;
+    cursor: pointer;
+    }
+    input[type=submit]:hover{
+    background-color: gray;
+    color: white;
+    opacity: 0.8;
+    }
+    a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    </style>
+
+    </head>
+    <body>
+        <div style="font-size:20px; align:center">
+            <a href="Student1.html" class="w3-bar-item w3-button" style="color: white;">Home</a>
+            <a href="Print_req.html" class="w3-bar-item w3-button" style="color: white;">Print Request</a>
+            <a href="contact_us.html" class="w3-bar-item w3-button" style="color: white;">Contact Us</a>
+            <a href="logout.html" class="w3-bar-item w3-button" style="color: white; float: right;">Logout</a>
+            <a  style="float: right; color: white;" >Welcome Student!</a>
+        </div><br><br>
+        <form class="w3-container text-white" style="padding:50px; font-size:20px" action="http://localhost/print/uploads.php" method="post" enctype="multipart/form-data">
+        Select image to upload:&nbsp &nbsp &nbsp &nbsp
+            <input type="file" name="file"><br><br>
+            <input type="submit" value="Upload Document" name="submit"><br><br>
+        Pages to be printed:
+            Pages from
+            <input type="text" style="width: 30px" value="1">
+            to
+            <input type="text" style="width: 30px" value="20"><br><br>
+            Print Requests:
+        </form>
+        <a  href="goback.html"><input style="padding:20px; font-size:15px; margin-left:50px"  type="submit" value="Submit" name="sub"></a><br><br>
+    </body>
+</html>

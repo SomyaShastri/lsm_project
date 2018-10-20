@@ -1,0 +1,56 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="print.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body, html {
+    height: 100%;
+    margin: 0;
+    background-image: none;
+    }
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(98, 53, 41, 0.6);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+    </style>
+    </head>
+    <body>
+    <div class="w3-bar text-white" style="align-content:center; background-color: #006622; font-size: 20px;">
+        <a href="Student1.html" class="w3-bar-item w3-button">Home</a>
+        <a href="Print_req.html" class="w3-bar-item w3-button">Print Request</a>
+        <a href="contact_us.html" class="w3-bar-item w3-button">Contact Us</a>
+        <a href="logout.html" class="w3-bar-item w3-button">Logout</a>
+    </div>
+        <p style="font-size: 30px; text-align: center; padding: 20px"> If you have any greviences<br>Do contact us...</p>
+    <h3 style="font-size: 40px; text-align:center;">Contact Form</h3>
+    
+    <div class="container" style="font-size: 20px;">
+      <form action="/action_page.php">
+        Registration Number
+        <input type="text" name="reg.no" placeholder="Your reg.no eg:- 15BEC0082">
+        Name
+        <input type="text" name="name" placeholder="Your name">
+        Hostel Block
+        <select id="hostelblock" name="hostel block">
+        <option value="" disabled selected hidden>Select Hostel block...</option>
+        <option value="E block">E block</option>
+        <option value="F block">F block</option>
+        <option value="C block">C block</option>
+        </select>
+        Subject
+        <textarea name="subject" placeholder="Write something..." style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    </body>

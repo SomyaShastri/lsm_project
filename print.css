@@ -1,0 +1,128 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'papyrus';
+    margin-top: 120px;
+    margin-left: 200px;
+    font-size: 40px;    
+}
+
+.pos{
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    font-family: 'papyrus';
+    font-size: 40px;
+    text-align: center;
+}
+h2,h4{
+    font-family: 'papyrus';
+    margin-left: 200px;
+    font-size: 20px;
+}
+.app
+{
+    font-size: 30px;
+    font-style: italic;
+}
+.app:hover{
+    text-decoration: underline;
+}
+.text-white{
+    color: white;
+}
+.card {
+  width: 40%;
+  margin-top: -25%;
+  margin-left: 50% ;
+  height: 60%;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Tekton Pro";
+  color:#009900; 
+  text-shadow: 1px 1px black;
+}
+.card .card-title {
+  font-size: 55px;
+  font-weight: 300px;
+  margin: 120px;
+}
+
+span{
+    font-weight: bold; 
+}
+
+pre{
+    margin-top: 7%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link{
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.box
+{
+    background-color: white;
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password],input[type=email],option,input[type=time]{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+input[type=submit]{
+    background-color: #009900;
+    color: white;
+    border: none;
+    margin: 10px 10px;
+    padding: 18px 32px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+input[type=text],input[type=email],input[type=password]
+{
+    font-family: 'Adobe Garamond ProAdobe Garamond Pro Bold';
+    font-size: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: #80ff80;
+    color: black;
+    opacity: 0.8;
+}
+.Style{
+    opacity: 0.9;
+    font-family: 'Adobe Garamond ProAdobe Garamond Pro Bold';
+    font-size: 17px;
+}
+.bg {
+    background-image: url("images/books1.jpg");
+    height: 45%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select{
+   opacity: 0.7;
+   height: 35px;
+   width:320px;
+}
+.opp{
+    opacity: 0.7;
+}
