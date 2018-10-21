@@ -1,6 +1,8 @@
 <?php
         $con = mysqli_connect("localhost", "root", "", "software_project") or 
                 die(mysqli_error());
+
+                
         mysqli_select_db($con, "software_project");
         $uname = "";
         $pwd = "";
